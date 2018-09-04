@@ -23,7 +23,7 @@ function currentLine(line){
   var str = "The line in currently: "
   if (line.length>0){
     for (let i=0; i<line.length; i++){
-      str += `${i+1}. line[i]`;
+      str += `${i+1}. ${line[i]}`;
   }
   return str;
   }else{
