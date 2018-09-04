@@ -1,1 +1,1 @@
-### kslj
+//takeANumber accepts two parameters--num people in line and new persons name.  
