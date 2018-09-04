@@ -22,9 +22,11 @@ function nowServing(line){
 function currentLine(line){
   var str = "The line in currently: "
   if (line.length>0){
-    for (i=0; i<=line.length; i++){
-      
-    
-    return "The line is currently: "
+    for (i=0; i<line.length; i++){
+      str += `${i+1}. line[i]`;
+  }
+  return str;
+  }else{
+    return "The line is currently empty."
   }
 }
