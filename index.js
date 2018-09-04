@@ -24,9 +24,12 @@ function currentLine(line){
   if (line.length>0){
     for (let i=0; i<line.length; i++){
       str += `${i+1}. ${line[i]}`;
-  }
+      if (i+1<line.length){
+        str += ", "
+      }
+    }
   return str;
   }else{
     return "The line is currently empty."
-  }
+   }
 }
