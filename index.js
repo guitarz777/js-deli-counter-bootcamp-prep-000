@@ -20,7 +20,7 @@ function nowServing(line){
 //currentLine accepts line and returns a string "The line is currently: 1. name, 2. name, 3. name ... n. name".  If line is empty, returns "The line is currently empty."
 
 function currentLine(line){
-  var str = "The line in currently: "
+  var str = "The line is currently: "
   if (line.length>0){
     for (let i=0; i<line.length; i++){
       str += `${i+1}. ${line[i]}`;
