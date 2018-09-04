@@ -8,7 +8,7 @@ function takeANumber (line, name){
 //nowServing accepts current line of people(katzDeliLine) and returns and removes the next individual in line. When line is empty, return "There is nobody waiting to be served!"
 
 function nowServing(line){
-  while (line>0){
+  while (line.length>0){
     name = line.shift();
     return `Currently serving ${name}.`;
   }
