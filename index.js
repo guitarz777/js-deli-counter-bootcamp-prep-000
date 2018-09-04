@@ -9,7 +9,7 @@ function takeANumber (line, name){
 
 function nowServing(line){
   name = line.shift();
-  return `Currently serving ${name}.`;
+  return `Currently serving ${name}`;
 }
 
 //currentLine accepts line and returns "The line is  currently: 1. name, 2. name, 3. name ... n. name".  If line is empty, returns "The line is currently empty."
